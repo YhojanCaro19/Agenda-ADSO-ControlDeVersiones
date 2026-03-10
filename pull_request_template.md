@@ -13,3 +13,5 @@ Se agregan dos mejoras al archivo index.html del proyecto Agenda ADSO. Primero s
 
 ## Referencias
 closes #1
+
+<img width="1363" height="674" alt="image" src="https://github.com/user-attachments/assets/07980d19-5dfb-48e8-822b-41f4836a89b4" />
