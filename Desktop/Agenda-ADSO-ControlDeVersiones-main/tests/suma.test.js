@@ -4,5 +4,5 @@ function suma(a, b) {
   return a + b;
 }
 test('suma 10 + 15 = 25', () => {
-  assert.equal(suma(2, 3), 5);
+  assert.equal(suma(10, 15), 25);
 });
