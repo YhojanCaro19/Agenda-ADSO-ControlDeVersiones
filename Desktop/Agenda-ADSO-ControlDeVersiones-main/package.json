@@ -1,0 +1,16 @@
+{
+  "name": "agenda-adso-controldeversiones-main",
+  "version": "1.0.0",
+  "description": "Agenda-ADSO-ControlDeVersiones",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  }
+}
