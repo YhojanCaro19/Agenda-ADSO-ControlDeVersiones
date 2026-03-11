@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>¡Bienvenidos A Agenda ADSO!</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #f5f5f5;
+        color: #333;
+      }
+
+      header {
+        background-color: #2c3e50;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      section {
+        padding: 40px;
+        margin: 20px auto;
+        max-width: 800px;
+        background-color: white;
+        border-radius: 8px;
+      }
+
+      h2 {
+        color: #2c3e50;
+      }
+
+      /* CAMBIO 1 - botón verde con hover */
+      button {
+        background-color: #595a5a;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+      }
+
+      button:hover {
+        background-color: #1e8449;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 8px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      /* CAMBIO 3 - footer */
+      footer {
+        background-color: #2c3e50;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Agenda ADSO</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#contacto">Contactos</a></li>
+          <li><a href="#">Formulario De Inscripcion</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="inicio">
+      <h2>Contáctanos</h2>
+      <p>
+        <strong
+          >Completa el formulario y te responderemos en menos de 12
+          horas.</strong
+        >
+      </p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contáctanos</h2>
+      <!-- CAMBIO 2 - descripción agregada -->
+      <p>
+        <strong
+          >Completa el formulario y te responderemos en menos de 12
+          horas.</strong
+        >
+      </p>
+      <p>¿Tienes alguna pregunta? Escríbenos y te responderemos pronto.</p>
+      <form>
+        <div>
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" placeholder="Tu nombre" />
+        </div>
+        <div>
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" placeholder="tucorreo@email.com" />
+        </div>
+        <div>
+          <label for="mensaje">Mensaje</label>
+          <textarea
+            id="mensaje"
+            placeholder="Escribe tu mensaje aquí..."
+          ></textarea>
+        </div>
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </section>
+    <footer>
+      <p>
+        © 2025 Agenda ADSO · Todos los derechos reservados | Yhojan Caro |
+        Sebastian Gonzalez |
+      </p>
+    </footer>
+  </body>
+</html>
